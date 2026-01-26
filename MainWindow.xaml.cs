@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,17 +9,34 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Windows;
 
 namespace Forma1Kviz
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    public class Question
+    {
+        public int Id { get; set; }
+        public string Text { get; set; }
+        public List<string> Options { get; set; }
+        public int CorrectAnswerIndex { get; set; }
+        public string Difficulty { get; set; }
+    }
+
     public partial class MainWindow : Window
     {
+        public List<Question> Questions { get; set; }
+
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); // ⭐ kötelező WPF-ben
+
+            // JSON beolvasása
+            string json = File.ReadAllText("questions.json");
+
+            Questions = JsonSerializer.Deserialize<List<Question>>(json);
         }
     }
 }
