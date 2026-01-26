@@ -1,31 +1,31 @@
 [
   {
     "Id": 1,
-    "Text": "Mi a DRS rendszer célja?",
+    "Text": "Mi a DRS rendszer cï¿½lja?",
     "Options": [
-      "Az autó stabilitásának növelése",
-      "Az elõzés megkönnyítése",
-      "Az üzemanyag-fogyasztás csökkentése",
-      "A féktáv lerövidítése"
+      "Az autï¿½ stabilitï¿½sï¿½nak nï¿½velï¿½se",
+      "Az elï¿½zï¿½s megkï¿½nnyï¿½tï¿½se",
+      "Az ï¿½zemanyag-fogyasztï¿½s csï¿½kkentï¿½se",
+      "A fï¿½ktï¿½v lerï¿½vidï¿½tï¿½se"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Easy"
   },
   {
     "Id": 2,
-    "Text": "Mit jelent a „pole pozíció”?",
+    "Text": "Mit jelent a ï¿½pole pozï¿½ciï¿½?",
     "Options": [
-      "A leggyorsabb kör a versenyen",
-      "Az elsõ rajthely",
-      "A boxutcából indulás",
-      "Az utolsó rajthely"
+      "A leggyorsabb kï¿½r a versenyen",
+      "Az elsï¿½ rajthely",
+      "A boxutcï¿½bï¿½l indulï¿½s",
+      "Az utolsï¿½ rajthely"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Easy"
   },
   {
     "Id": 3,
-    "Text": "Ki nyerte a 2021-es Forma–1 világbajnoki címet?",
+    "Text": "Ki nyerte a 2021-es Formaï¿½1 vilï¿½gbajnoki cï¿½met?",
     "Options": [
       "Lewis Hamilton",
       "Sebastian Vettel",
@@ -37,7 +37,7 @@
   },
   {
     "Id": 4,
-    "Text": "Hány pilóta nyert eddig Forma–1-es világbajnoki címet?",
+    "Text": "Hï¿½ny pilï¿½ta nyert eddig Formaï¿½1-es vilï¿½gbajnoki cï¿½met?",
     "Options": [
       "27",
       "31",
@@ -49,7 +49,7 @@
   },
   {
     "Id": 5,
-    "Text": "Melyik csapat színe hagyományosan a piros?",
+    "Text": "Melyik csapat szï¿½ne hagyomï¿½nyosan a piros?",
     "Options": [
       "Mercedes",
       "Ferrari",
@@ -61,19 +61,19 @@
   },
   {
     "Id": 6,
-    "Text": "Ki vezeti az F1-es autót a verseny során?",
+    "Text": "Ki vezeti az F1-es autï¿½t a verseny sorï¿½n?",
     "Options": [
-      "Mérnök",
-      "Csapatfõnök",
-      "Pilóta",
-      "Szerelõ"
+      "Mï¿½rnï¿½k",
+      "Csapatfï¿½nï¿½k",
+      "Pilï¿½ta",
+      "Szerelï¿½"
     ],
     "CorrectAnswerIndex": 2,
     "Difficulty": "Easy"
   },
   {
     "Id": 7,
-    "Text": "Melyik csapatnál versenyzett Ayrton Senna a legtöbbet?",
+    "Text": "Melyik csapatnï¿½l versenyzett Ayrton Senna a legtï¿½bbet?",
     "Options": [
       "Ferrari",
       "Lotus",
@@ -85,9 +85,9 @@
   },
   {
     "Id": 8,
-    "Text": "Ki a Ferrari legsikeresebb pilótája világbajnoki címek alapján?",
+    "Text": "Ki a Ferrari legsikeresebb pilï¿½tï¿½ja vilï¿½gbajnoki cï¿½mek alapjï¿½n?",
     "Options": [
-      "Kimi Räikkönen",
+      "Kimi Rï¿½ikkï¿½nen",
       "Fernando Alonso",
       "Sebastian Vettel",
       "Michael Schumacher"
@@ -97,7 +97,7 @@
   },
   {
     "Id": 9,
-    "Text": "Kinek van a legtöbb futamgyõzelme a Forma–1 történetében?",
+    "Text": "Kinek van a legtï¿½bb futamgyï¿½zelme a Formaï¿½1 tï¿½rtï¿½netï¿½ben?",
     "Options": [
       "Sebastian Vettel",
       "Max Verstappen",
@@ -109,31 +109,31 @@
   },
   {
     "Id": 10,
-    "Text": "Mit jelent az „undercut” stratégia?",
+    "Text": "Mit jelent az ï¿½undercutï¿½ stratï¿½gia?",
     "Options": [
-      "Késõbbi boxkiállás",
-      "Korábbi boxkiállás gyors körökkel",
-      "Biztonsági autó alatti kiállás",
-      "Gumik spórolása"
+      "Kï¿½sï¿½bbi boxkiï¿½llï¿½s",
+      "Korï¿½bbi boxkiï¿½llï¿½s gyors kï¿½rï¿½kkel",
+      "Biztonsï¿½gi autï¿½ alatti kiï¿½llï¿½s",
+      "Gumik spï¿½rolï¿½sa"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 11,
-    "Text": "Hol rendezik a Monacói Nagydíjat?",
+    "Text": "Hol rendezik a Monacï¿½i Nagydï¿½jat?",
     "Options": [
-      "Franciaország",
+      "Franciaorszï¿½g",
       "Monaco",
-      "Olaszország",
-      "Spanyolország"
+      "Olaszorszï¿½g",
+      "Spanyolorszï¿½g"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 12,
-    "Text": "Hány pontot kap a futam gyõztese a jelenlegi szabályok szerint?",
+    "Text": "Hï¿½ny pontot kap a futam gyï¿½ztese a jelenlegi szabï¿½lyok szerint?",
     "Options": [
       "18",
       "20",
@@ -145,31 +145,31 @@
   },
   {
     "Id": 13,
-    "Text": "Mit jelent a konstruktõri világbajnokság?",
+    "Text": "Mit jelent a konstruktï¿½ri vilï¿½gbajnoksï¿½g?",
     "Options": [
-      "A legjobb pilóta bajnoksága",
-      "A csapatok összesített bajnoksága",
-      "A motorbeszállítók versenye",
-      "A szerelõk bajnoksága"
+      "A legjobb pilï¿½ta bajnoksï¿½ga",
+      "A csapatok ï¿½sszesï¿½tett bajnoksï¿½ga",
+      "A motorbeszï¿½llï¿½tï¿½k versenye",
+      "A szerelï¿½k bajnoksï¿½ga"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 14,
-    "Text": "Milyen zászló jelzi a verseny végét?",
+    "Text": "Milyen zï¿½szlï¿½ jelzi a verseny vï¿½gï¿½t?",
     "Options": [
       "Piros",
-      "Sárga",
-      "Kék",
-      "Kockás"
+      "Sï¿½rga",
+      "Kï¿½k",
+      "Kockï¿½s"
     ],
     "CorrectAnswerIndex": 3,
     "Difficulty": "Medium"
   },
   {
     "Id": 15,
-    "Text": "Ki volt az elsõ Forma–1-es világbajnok?",
+    "Text": "Ki volt az elsï¿½ Formaï¿½1-es vilï¿½gbajnok?",
     "Options": [
       "Juan Manuel Fangio",
       "Alberto Ascari",
@@ -181,7 +181,7 @@
   },
   {
     "Id": 16,
-    "Text": "Melyik évben vezették be a hibrid erõforrásokat az F1-ben?",
+    "Text": "Melyik ï¿½vben vezettï¿½k be a hibrid erï¿½forrï¿½sokat az F1-ben?",
     "Options": [
       "2010",
       "2012",
@@ -193,19 +193,19 @@
   },
   {
     "Id": 17,
-    "Text": "Mit jelent a „parc fermé” szabály?",
+    "Text": "Mit jelent a ï¿½parc fermï¿½ szabï¿½ly?",
     "Options": [
-      "Zárt boxutca",
-      "Az autók nem módosíthatók az idõmérõ után",
-      "Kötelezõ gumicsere",
-      "Zárt nézõtér"
+      "Zï¿½rt boxutca",
+      "Az autï¿½k nem mï¿½dosï¿½thatï¿½k az idï¿½mï¿½rï¿½ utï¿½n",
+      "Kï¿½telezï¿½ gumicsere",
+      "Zï¿½rt nï¿½zï¿½tï¿½r"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Hard"
   },
   {
     "Id": 18,
-    "Text": "Melyik csapat nyerte a legtöbb konstruktõri világbajnoki címet?",
+    "Text": "Melyik csapat nyerte a legtï¿½bb konstruktï¿½ri vilï¿½gbajnoki cï¿½met?",
     "Options": [
       "Ferrari",
       "McLaren",
@@ -217,19 +217,19 @@
   },
   {
     "Id": 19,
-    "Text": "Mi az „overcut” stratégia lényege?",
+    "Text": "Mi az ï¿½overcutï¿½ stratï¿½gia lï¿½nyege?",
     "Options": [
-      "Korábbi boxkiállás",
-      "Késõbbi boxkiállással elõzés",
-      "Safety Car alatti kiállás",
-      "Gumik cseréjének kihagyása"
+      "Korï¿½bbi boxkiï¿½llï¿½s",
+      "Kï¿½sï¿½bbi boxkiï¿½llï¿½ssal elï¿½zï¿½s",
+      "Safety Car alatti kiï¿½llï¿½s",
+      "Gumik cserï¿½jï¿½nek kihagyï¿½sa"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Hard"
   },
   {
     "Id": 20,
-    "Text": "Melyik pályán rendezték a legtöbb Forma–1-es futamot?",
+    "Text": "Melyik pï¿½lyï¿½n rendeztï¿½k a legtï¿½bb Formaï¿½1-es futamot?",
     "Options": [
       "Monaco",
       "Monza",
