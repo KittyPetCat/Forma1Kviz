@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Claims;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,13 @@ namespace Forma1Kviz
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak2 ablak2 = new Ablak2();
+            ablak2.Show();       // új ablak megnyitása
+            this.Close();
         }
     }
 }
