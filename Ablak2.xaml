@@ -44,14 +44,13 @@
                     Background="#D3D3D3"
                     Margin="10">
                 <StackPanel>
-                    <TextBlock Text="Válasz szöveg"
-                               Margin="10"
-                               TextWrapping="Wrap"/>
                     <TextBlock Text="1."
                                FontSize="18"
                                FontWeight="Bold"
                                HorizontalAlignment="Right"
                                Margin="10"/>
+                    <TextBlock Text="Válasz szöveg"
+                               TextWrapping="Wrap"/>
                 </StackPanel>
             </Border>
 
@@ -59,9 +58,9 @@
                     Background="#D3D3D3"
                     Margin="10">
                 <StackPanel>
-                    <TextBlock Text="Válasz szöveg"/>
                     <TextBlock Text="2."
                                HorizontalAlignment="Right"/>
+                    <TextBlock Text="Válasz szöveg"/>
                 </StackPanel>
             </Border>
 
@@ -69,9 +68,9 @@
                     Background="#D3D3D3"
                     Margin="10">
                 <StackPanel>
-                    <TextBlock Text="Válasz szöveg"/>
                     <TextBlock Text="3."
                                HorizontalAlignment="Right"/>
+                    <TextBlock Text="Válasz szöveg"/>
                 </StackPanel>
             </Border>
 
@@ -79,9 +78,9 @@
                     Background="#D3D3D3"
                     Margin="10">
                 <StackPanel>
-                    <TextBlock Text="Válasz szöveg"/>
                     <TextBlock Text="4."
                                HorizontalAlignment="Right"/>
+                    <TextBlock Text="Válasz szöveg"/>
                 </StackPanel>
             </Border>
 
@@ -95,11 +94,12 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <Button Content="Feladom"
+            <Button x:Name="felad"
+                Content="Feladom"
                     Background="#E74C3C"
                     Foreground="White"
                     Padding="20,10"
-                    BorderThickness="0" Grid.Column="1" Margin="70,2,540,-2"/>
+                    BorderThickness="0" Grid.Column="1" Margin="70,2,540,-2" Click="felad_Click"/>
 
             <TextBlock Grid.Column="1"
                        Text="10 / 1"
@@ -107,12 +107,13 @@
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
 
-            <Button Grid.Column="1"
+            <Button x:Name="tovabb"
+                Grid.Column="1"
                     Content="Tovább"
                     Background="#2ECC71"
                     Foreground="White"
                     Padding="20,10"
-                    BorderThickness="0" Margin="546,0,64,0"/>
+                    BorderThickness="0" Margin="546,0,64,0" Click="tovabb_Click"/>
         </Grid>
         <TextBlock Grid.Row="1"
             FontSize="28"
