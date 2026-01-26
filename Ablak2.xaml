@@ -5,8 +5,120 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Forma1Kviz"
         mc:Ignorable="d"
-        Title="Ablak2" Height="450" Width="800">
-    <Grid>
-        
+        Title="Kérdés"
+        Height="600"
+        Width="900"
+        Background="#F2F2F2">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- KÉP -->
+        <Border Grid.Row="0"
+                Background="#E0E0E0"
+                CornerRadius="30" Margin="160,0,160,0">
+            <TextBlock Text="kép"
+                       FontSize="24"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
+
+        <!-- KÉRDÉS -->
+        <TextBlock Grid.Row="1"
+                   FontSize="28"
+                   FontWeight="Bold"
+                   Margin="0,1,0,38"
+                   HorizontalAlignment="Center"><Run Text="KÉRDÉS"/><Run Language="hu-hu" Text=":"/></TextBlock>
+
+        <!-- VÁLASZOK -->
+        <UniformGrid Grid.Row="2"
+                     Columns="4"
+                     Margin="0,20">
+
+            <Border CornerRadius="20"
+                    Background="#D3D3D3"
+                    Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Válasz szöveg"
+                               Margin="10"
+                               TextWrapping="Wrap"/>
+                    <TextBlock Text="1."
+                               FontSize="18"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Right"
+                               Margin="10"/>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="20"
+                    Background="#D3D3D3"
+                    Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock Text="2."
+                               HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="20"
+                    Background="#D3D3D3"
+                    Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock Text="3."
+                               HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Border>
+
+            <Border CornerRadius="20"
+                    Background="#D3D3D3"
+                    Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock Text="4."
+                               HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Border>
+
+        </UniformGrid>
+
+        <!-- ALSÓ SÁV -->
+        <Grid Grid.Row="3" Margin="0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Feladom"
+                    Background="#E74C3C"
+                    Foreground="White"
+                    Padding="20,10"
+                    BorderThickness="0" Grid.Column="1" Margin="70,2,540,-2"/>
+
+            <TextBlock Grid.Column="1"
+                       Text="10 / 1"
+                       FontSize="18"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+
+            <Button Grid.Column="1"
+                    Content="Tovább"
+                    Background="#2ECC71"
+                    Foreground="White"
+                    Padding="20,10"
+                    BorderThickness="0" Margin="546,0,64,0"/>
+        </Grid>
+        <TextBlock Grid.Row="1"
+            FontSize="28"
+            
+            Margin="0,35,0,4"
+            HorizontalAlignment="Center"><Run Text="IDE JÖN A KÉRDÉS"/><Run Language="hu-hu"/></TextBlock>
+
     </Grid>
 </Window>
