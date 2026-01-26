@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Claims;
+using System.Text;
 using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
@@ -37,6 +38,13 @@ namespace Forma1Kviz
             string json = File.ReadAllText("questions.json");
 
             Questions = JsonSerializer.Deserialize<List<Question>>(json);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak2 ablak2 = new Ablak2();
+            ablak2.Show();       // új ablak megnyitása
+            this.Close();
         }
     }
 }

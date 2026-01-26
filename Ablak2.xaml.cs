@@ -23,5 +23,17 @@ namespace Forma1Kviz
         {
             InitializeComponent();
         }
+
+        private void tovabb_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void felad_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow ablak1 = new MainWindow();
+            ablak1.Show();
+            this.Close();
+        }
     }
 }
