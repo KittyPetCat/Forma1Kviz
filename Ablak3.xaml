@@ -5,8 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Forma1Kviz"
         mc:Ignorable="d"
-        Title="Ablak3" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Eredmény"
+        Height="552"
+        Width="900"
+        MinHeight="650"
+        MinWidth="800"
+        Background="#F2F2F2"
+        WindowStartupLocation="CenterScreen">
+
+    <ScrollViewer>
+        <StackPanel Margin="32">
+
+            <!-- EREDMÉNY KÁRTYA -->
+            <Border CornerRadius="20"
+                    Background="White"
+                    Padding="24"
+                    Margin="0,0,0,24"
+                    BorderBrush="#DDD"
+                    BorderThickness="1">
+
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="140"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Kép -->
+                        <Border Width="120"
+                                Height="120"
+                                Background="#EEE"
+                                CornerRadius="20">
+                            <TextBlock Text="🏆"
+                                       FontSize="48"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+                        </Border>
+
+                        <!-- Szöveg -->
+                        <StackPanel Grid.Column="1"
+                                    Margin="24,0,0,0">
+
+                            <TextBlock Text="Eredményed"
+                                       FontSize="26"
+                                       FontWeight="Bold"/>
+
+                            <TextBlock Text="Nagyon jó teljesítmény!"
+                                       FontSize="18"
+                                       Margin="0,8,0,0"/>
+
+                            <TextBlock Text="Pontszám: 10 / 8"
+                                       FontSize="22"
+                                       FontWeight="Bold"
+                                       Margin="0,16,0,0"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- ÚJRA -->
+                    <Button Content="Újra játszom"
+                            Background="#2ECC71"
+                            Foreground="White"
+                            Height="50"
+                            Margin="0,24,0,0"
+                            BorderThickness="0"
+                            FontSize="18"
+                            FontWeight="Bold" Width="335"/>
+                </StackPanel>
+            </Border>
+
+            <!-- MÁSODIK KÁRTYA -->
+            <Border CornerRadius="20"
+                    Background="White"
+                    Padding="24"
+                    BorderBrush="#DDD"
+                    BorderThickness="1">
+
+                <StackPanel>
+                    <TextBlock Text="Mit szeretnél csinálni?"
+                               FontSize="20"
+                               FontWeight="Bold"
+                               Margin="0,0,0,16"/>
+
+                    <Button x:Name="VisszaButton"
+                        Content="Vissza a főmenübe"
+                            Background="#E74C3C"
+                            Foreground="White"
+                            Height="50"
+                            BorderThickness="0"
+                            FontSize="18" Width="337" Click="Button_Click"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
 </Window>

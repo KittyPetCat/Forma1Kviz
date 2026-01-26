@@ -23,5 +23,18 @@ namespace Forma1Kviz
         {
             InitializeComponent();
         }
+
+        private void VisszaButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow ablak1 = new MainWindow();
+            ablak1.Show();
+            this.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
+
