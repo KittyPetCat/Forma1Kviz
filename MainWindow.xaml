@@ -115,7 +115,7 @@
                     </Grid>
 
                     <Button x:Name="btnNehez"
-                        Content="Nehézz"
+                        Content="Nehéz"
                             Background="#E74C3C"
                             Foreground="White"
                             Height="40"
