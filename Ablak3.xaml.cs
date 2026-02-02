@@ -19,21 +19,17 @@ namespace Forma1Kviz
     /// </summary>
     public partial class Ablak3 : Window
     {
-        public Ablak3()
+        public Ablak3(int pontszam)
         {
             InitializeComponent();
-        }
-
-        private void VisszaButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow ablak1 = new MainWindow();
-            ablak1.Show();
-            this.Close();
+            PontszamRun.Text = pontszam.ToString();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow ablak1 = new MainWindow();
+            ablak1.Show();
+            this.Close();
         }
     }
 }
