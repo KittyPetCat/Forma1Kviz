@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="1754480352.png" />
+    <None Remove="F1-Racing.png" />
+    <None Remove="Ferrari_F1-75_in_Melbourne.png" />
+    <None Remove="UsZ7rBPAq2uywGRJu7YumY.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1754480352.png" />
+    <Resource Include="F1-Racing.png" />
+    <Resource Include="Ferrari_F1-75_in_Melbourne.png" />
+    <Resource Include="UsZ7rBPAq2uywGRJu7YumY.jpg" />
+  </ItemGroup>
+
 </Project>

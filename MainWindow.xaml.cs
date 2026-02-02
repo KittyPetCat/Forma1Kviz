@@ -46,5 +46,19 @@ namespace Forma1Kviz
             ablak2.Show();       // új ablak megnyitása
             this.Close();
         }
+
+        private void btnKözepes_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak2 ablak2 = new Ablak2();
+            ablak2.Show();       // új ablak megnyitása
+            this.Close();
+        }
+
+        private void btnNehez_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak2 ablak2 = new Ablak2();
+            ablak2.Show();       // új ablak megnyitása
+            this.Close();
+        }
     }
 }

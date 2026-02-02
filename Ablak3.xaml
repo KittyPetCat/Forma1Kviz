@@ -39,7 +39,14 @@
                             <TextBlock Text="🏆"
                                        FontSize="48"
                                        HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"/>
+                                       VerticalAlignment="Center" >
+                                <TextBlock.Foreground>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FFB77500"/>
+                                        <GradientStop Color="#FFFFC868" Offset="0.996"/>
+                                    </LinearGradientBrush>
+                                </TextBlock.Foreground>
+                            </TextBlock>
                         </Border>
 
                         <!-- Szöveg -->
@@ -54,10 +61,10 @@
                                        FontSize="18"
                                        Margin="0,8,0,0"/>
 
-                            <TextBlock Text="Pontszám: 10 / 8"
+                            <TextBlock
                                        FontSize="22"
                                        FontWeight="Bold"
-                                       Margin="0,16,0,0"/>
+                                       Margin="0,16,0,0"><Run Text="Pontszám: 10 / "/><Run Language="hu-hu" Text="0"/></TextBlock>
                         </StackPanel>
                     </Grid>
 
@@ -68,12 +75,11 @@
                             Height="50"
                             Margin="0,24,0,0"
                             BorderThickness="0"
-                            FontSize="18"
-                            FontWeight="Bold" Width="335"/>
+                            FontSize="18" Width="335" FontWeight="Bold"/>
                 </StackPanel>
             </Border>
 
-            
+
 
         </StackPanel>
     </ScrollViewer>
