@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:Forma1Kviz"
         mc:Ignorable="d"
         Title="Eredmény"
-        Height="552"
-        Width="900"
+        Height="440"
+        Width="1112"
         MinHeight="650"
         MinWidth="800"
         Background="#F2F2F2"
         WindowStartupLocation="CenterScreen">
 
-    <ScrollViewer>
-        <StackPanel Margin="32">
+    <ScrollViewer Margin="0,0,0,258">
+        <StackPanel Margin="32" Height="385">
 
             <!-- EREDMÉNY KÁRTYA -->
             <Border CornerRadius="20"
@@ -73,28 +73,7 @@
                 </StackPanel>
             </Border>
 
-            <!-- MÁSODIK KÁRTYA -->
-            <Border CornerRadius="20"
-                    Background="White"
-                    Padding="24"
-                    BorderBrush="#DDD"
-                    BorderThickness="1">
-
-                <StackPanel>
-                    <TextBlock Text="Mit szeretnél csinálni?"
-                               FontSize="20"
-                               FontWeight="Bold"
-                               Margin="0,0,0,16"/>
-
-                    <Button x:Name="VisszaButton"
-                        Content="Vissza a főmenübe"
-                            Background="#E74C3C"
-                            Foreground="White"
-                            Height="50"
-                            BorderThickness="0"
-                            FontSize="18" Width="337" Click="Button_Click"/>
-                </StackPanel>
-            </Border>
+            
 
         </StackPanel>
     </ScrollViewer>

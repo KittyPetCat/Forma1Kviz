@@ -30,9 +30,7 @@
                         <Border Height="90"
                                 Background="#EEE"
                                 CornerRadius="12" Grid.ColumnSpan="2" Margin="5,0,674,0">
-                            <TextBlock Text="kép"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"/>
+                            <Image/>
                         </Border>
 
                         <!-- Szöveg -->
@@ -43,7 +41,8 @@
                     </Grid>
 
                     <!-- Gomb -->
-                    <Button Content="Könnyű"
+                    <Button x:Name="btnKönnyű"
+                        Content="Könnyű"
                             Background="#2ECC71"
                             Foreground="White"
                             Height="40"
@@ -70,9 +69,8 @@
                         <Border Height="90"
                                 Background="#EEE"
                                 CornerRadius="12" Grid.ColumnSpan="2" Margin="5,0,674,0">
-                            <TextBlock Text="kép"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"/>
+                            <Image/>
+
                         </Border>
 
                         <TextBlock Grid.Column="1"
@@ -80,7 +78,8 @@
                                    Margin="90,0,0,0"><Run Language="hu-hu" Text="Szöveg2"/></TextBlock>
                     </Grid>
 
-                    <Button Content="Közepes"
+                    <Button x:Name="btnKözepes"
+                        Content="Közepes"
                             Background="#F1C40F"
                             Foreground="Black"
                             Height="40"
@@ -104,9 +103,7 @@
                         <Border Height="90"
                                 Background="#EEE"
                                 CornerRadius="12" Grid.ColumnSpan="2" Margin="5,0,674,0">
-                            <TextBlock Text="kép"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"/>
+                            <Image/>
                         </Border>
 
                         <TextBlock Grid.Column="1"
@@ -114,7 +111,8 @@
                                    Margin="90,0,0,0"><Run Language="hu-hu" Text="Szöveg3"/><LineBreak/><Run Language="hu-hu"/></TextBlock>
                     </Grid>
 
-                    <Button Content="Nehéz"
+                    <Button x:Name="btnNehez"
+                        Content="Nehéz"
                             Background="#E74C3C"
                             Foreground="White"
                             Height="40"
