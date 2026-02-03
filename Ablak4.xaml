@@ -1,0 +1,70 @@
+﻿<Window x:Class="Forma1Kviz.Ablak4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forma1Kviz"
+        mc:Ignorable="d"
+        Title="Ablak4" Height="450" Width="800">
+    <Grid Margin="20,10,20,20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Kérdés -->
+            <RowDefinition Height="Auto"/>
+            <!-- Válasz 1 -->
+            <RowDefinition Height="Auto"/>
+            <!-- Válasz 2 -->
+            <RowDefinition Height="Auto"/>
+            <!-- Válasz 3 -->
+            <RowDefinition Height="Auto"/>
+            <!-- Válasz 4 -->
+            <RowDefinition Height="*"/>
+            <!-- Üres hely -->
+            <RowDefinition Height="Auto"/>
+            <!-- Gombok -->
+        </Grid.RowDefinitions>
+
+        <!-- KÉRDÉS -->
+        <TextBlock x:Name="QuestionText"
+                   Grid.Row="0"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,20"/>
+
+        <!-- VÁLASZOK -->
+        <RadioButton x:Name="valasz1" Grid.Row="1" GroupName="Answers" Margin="0,5" Checked="Answer_Checked" Content=" "/>
+        <RadioButton x:Name="valasz2" Grid.Row="2" GroupName="Answers" Margin="0,5" Checked="Answer_Checked"/>
+        <RadioButton x:Name="valasz3" Grid.Row="3" GroupName="Answers" Margin="0,5" Checked="Answer_Checked"/>
+        <RadioButton x:Name="valasz4" Grid.Row="4" GroupName="Answers" Margin="0,5" Checked="Answer_Checked"/>
+
+
+        <!-- GOMBOK -->
+        <Grid Grid.Row="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- FELADÁS -->
+            <Button Content="Feladás"
+                    Grid.Column="0"
+                    Height="40"
+                    Margin="0,10,10,0"
+                    Background="#E74C3C"
+                    Foreground="White"
+                    Click="GiveUp_Click"/>
+
+            <!-- TOVÁBB -->
+            <Button x:Name="NextButton"
+                    Content="Tovább"
+                    Grid.Column="1"
+                    Height="40"
+                    Margin="10,10,0,0"
+                    IsEnabled="False"
+                    Click="NextButton_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

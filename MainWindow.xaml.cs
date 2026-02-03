@@ -35,7 +35,7 @@ namespace Forma1Kviz
             InitializeComponent(); // ⭐ kötelező WPF-ben
 
             // JSON beolvasása
-            string json = File.ReadAllText("questions.json");
+            string json = File.ReadAllText("questions_utf8.json");
 
             Questions = JsonSerializer.Deserialize<List<Question>>(json);
         }
@@ -44,6 +44,13 @@ namespace Forma1Kviz
         {
             Ablak2 ablak2 = new Ablak2();
             ablak2.Show();       // új ablak megnyitása
+            this.Close();
+        }
+
+        private void kozepes_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak4 ablak4 = new Ablak4();
+            ablak4.Show();       // új ablak megnyitása
             this.Close();
         }
     }

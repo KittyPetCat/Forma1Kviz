@@ -80,12 +80,12 @@
                                    Margin="90,0,0,0"><Run Language="hu-hu" Text="Szöveg2"/></TextBlock>
                     </Grid>
 
-                    <Button Content="Közepes"
+                    <Button x:Name="kozepes" Content="Közepes"
                             Background="#F1C40F"
                             Foreground="Black"
                             Height="40"
                             Margin="0,12,0,0"
-                            BorderThickness="0" Width="249"/>
+                            BorderThickness="0" Width="249" Click="kozepes_Click"/>
                 </StackPanel>
             </Border>
 

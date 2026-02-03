@@ -13,8 +13,8 @@
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="200"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto" MinHeight="76.243"/>
+            <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
@@ -33,61 +33,61 @@
                    FontSize="28"
                    FontWeight="Bold"
                    Margin="0,1,0,38"
-                   HorizontalAlignment="Center"><Run Text="KÉRDÉS"/><Run Language="hu-hu" Text=":"/></TextBlock>
+                   HorizontalAlignment="Center" Width="110"><Run Text="KÉRDÉS"/><Run Language="hu-hu" Text=":"/></TextBlock>
 
         <!-- VÁLASZOK -->
         <UniformGrid Grid.Row="2"
                      Columns="4"
-                     Margin="0,20">
+                     Margin="0,20,0,26">
 
-            <Border CornerRadius="20"
+            <Border x:Name="___No_Name_" CornerRadius="20"
                     Background="#D3D3D3"
-                    Margin="10">
-                <StackPanel>
+                    Margin="10,10,10,35">
+                <StackPanel Margin="0,0,0,38">
                     <TextBlock Text="1."
                                FontSize="18"
                                FontWeight="Bold"
                                HorizontalAlignment="Right"
                                Margin="10"/>
-                    <TextBlock Text="Válasz szöveg"
-                               TextWrapping="Wrap"/>
+                    <TextBlock x:Name="valasz1" Text="Válasz szöveg"
+                               TextWrapping="Wrap" RenderTransformOrigin="0.508,-1.353"/>
                 </StackPanel>
             </Border>
 
             <Border CornerRadius="20"
                     Background="#D3D3D3"
-                    Margin="10">
+                    Margin="10,10,10,35">
                 <StackPanel>
                     <TextBlock Text="2."
                                HorizontalAlignment="Right"/>
-                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock x:Name="valasz2" Text="Válasz szöveg" RenderTransformOrigin="0.477,2.304" Height="16"/>
                 </StackPanel>
             </Border>
 
             <Border CornerRadius="20"
                     Background="#D3D3D3"
-                    Margin="10">
+                    Margin="10,10,10,35">
                 <StackPanel>
                     <TextBlock Text="3."
                                HorizontalAlignment="Right"/>
-                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock x:Name="valasz3" Text="Válasz szöveg"/>
                 </StackPanel>
             </Border>
 
             <Border CornerRadius="20"
                     Background="#D3D3D3"
-                    Margin="10">
+                    Margin="10,10,10,35">
                 <StackPanel>
                     <TextBlock Text="4."
                                HorizontalAlignment="Right"/>
-                    <TextBlock Text="Válasz szöveg"/>
+                    <TextBlock x:Name="valasz4" Text="Válasz szöveg"/>
                 </StackPanel>
             </Border>
 
         </UniformGrid>
 
         <!-- ALSÓ SÁV -->
-        <Grid Grid.Row="3" Margin="0,20">
+        <Grid Grid.Row="3" Margin="0,20,0,20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
@@ -115,11 +115,11 @@
                     Padding="20,10"
                     BorderThickness="0" Margin="546,0,64,0" Click="tovabb_Click"/>
         </Grid>
-        <TextBlock Grid.Row="1"
+        <TextBlock x:Name="kerdes" Grid.Row="1"
             FontSize="28"
             
             Margin="0,35,0,4"
-            HorizontalAlignment="Center"><Run Text="IDE JÖN A KÉRDÉS"/><Run Language="hu-hu"/></TextBlock>
+            HorizontalAlignment="Center" Width="230"><Run Text="IDE JÖN A KÉRDÉS"/><Run Language="hu-hu"/></TextBlock>
 
     </Grid>
 </Window>
