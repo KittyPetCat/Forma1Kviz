@@ -8,7 +8,7 @@ using System.Windows.Controls;
 
 namespace Forma1Kviz
 {
-    public class Kerdes 
+    public class Kerdes1
     {
         public int Id { get; set; }
         public string Text { get; set; }
@@ -17,13 +17,13 @@ namespace Forma1Kviz
         public string Difficulty { get; set; }
     }
 
-    public partial class Ablak4 : Window
+    public partial class Nehez : Window
     {
-        List<Kerdes> kerdes = new List<Kerdes>();
+        List<Kerdes1> kerd = new List<Kerdes1>();
         int currentIndex = 0;
         int score = 0;
 
-        public Ablak4()
+        public Nehez()
         {
             InitializeComponent();
             LoadQuestionsFromJson();
@@ -33,12 +33,12 @@ namespace Forma1Kviz
         private void LoadQuestionsFromJson()
         {
             string json = File.ReadAllText("questions_utf8.json", Encoding.UTF8);
-            kerdes = JsonSerializer.Deserialize<List<Kerdes>>(json);
+            kerd = JsonSerializer.Deserialize<List<Kerdes1>>(json);
         }
-              
+
         private void LoadQuestion()
         {
-            Kerdes q = kerdes[currentIndex];
+            Kerdes1 q = kerd[currentIndex];
 
             QuestionText.Text = q.Text;
 
@@ -64,22 +64,23 @@ namespace Forma1Kviz
         {
             int selectedIndex = GetSelectedAnswerIndex();
 
-            if (selectedIndex == kerdes[currentIndex].CorrectAnswerIndex)
+            if (selectedIndex == kerd[currentIndex].CorrectAnswerIndex)
             {
                 score++;
             }
 
             currentIndex++;
 
-            if (currentIndex < kerdes.Count())
+            if (currentIndex < kerd.Count())
             {
                 LoadQuestion();
             }
             else
             {
-                MessageBox.Show($"Kvíz vége!\nPontszám: {score}/{kerdes.Count}");
+                MessageBox.Show($"Kvíz vége!\nPontszám: {score}/{kerd.Count}");
                 Close();
-            };
+            }
+            ;
         }
 
         private int GetSelectedAnswerIndex()

@@ -40,7 +40,7 @@ namespace Forma1Kviz
             Questions = JsonSerializer.Deserialize<List<Question>>(json);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void konyu_Click(object sender, RoutedEventArgs e)
         {
             Ablak2 ablak2 = new Ablak2();
             ablak2.Show();       // új ablak megnyitása
@@ -53,5 +53,13 @@ namespace Forma1Kviz
             ablak4.Show();       // új ablak megnyitása
             this.Close();
         }
+
+        private void nehez_Click(object sender, RoutedEventArgs e)
+        {
+            Nehez nehez = new Nehez();
+            nehez.Show();       // új ablak megnyitása
+            this.Close();
+        }
+
     }
 }

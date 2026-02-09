@@ -43,14 +43,14 @@
                     </Grid>
 
                     <!-- Gomb -->
-                    <Button Content="Könnyű"
+                    <Button x:Name="konyu" Content="Könnyű"
                             Background="#2ECC71"
                             Foreground="White"
                             Height="40"
                             Margin="0,12,0,0"
                             BorderThickness="0"
                             FontWeight="Bold"
-                            Cursor="Hand" Width="249" Click="Button_Click"/>
+                            Cursor="Hand" Width="249" Click="konyu_Click"/>
                 </StackPanel>
             </Border>
 
@@ -114,12 +114,12 @@
                                    Margin="90,0,0,0"><Run Language="hu-hu" Text="Szöveg3"/><LineBreak/><Run Language="hu-hu"/></TextBlock>
                     </Grid>
 
-                    <Button Content="Nehéz"
+                    <Button x:Name="nehez" Content="Nehéz"
                             Background="#E74C3C"
                             Foreground="White"
                             Height="40"
                             Margin="0,12,0,0"
-                            BorderThickness="0" Width="249"/>
+                            BorderThickness="0" Width="249" Click="nehez_Click"/>
                 </StackPanel>
             </Border>
 
