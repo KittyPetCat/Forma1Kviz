@@ -26,7 +26,12 @@ namespace Forma1Kviz
 
         private void tovabb_Click(object sender, RoutedEventArgs e)
         {
-
+            int elertPontszam = 7; // majd ide jön a pontszám számítása
+            int pontszam = elertPontszam;
+            
+            Ablak3 ablak3 = new Ablak3(pontszam);
+            ablak3.Show();
+            this.Close();
         }
 
         private void felad_Click(object sender, RoutedEventArgs e)
