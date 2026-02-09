@@ -1,31 +1,31 @@
 [
   {
     "Id": 1,
-    "Text": "Mi a DRS rendszer c�lja?",
+    "Text": "Mi a DRS rendszer célja?",
     "Options": [
-      "Az aut� stabilit�s�nak n�vel�se",
-      "Az el�z�s megk�nny�t�se",
-      "Az �zemanyag-fogyaszt�s cs�kkent�se",
-      "A f�kt�v ler�vid�t�se"
+      "Az autó stabilitásának növelése",
+      "Az előzés megkönnyítése",
+      "Az üzemanyag-fogyasztás csökkentése",
+      "A féktáv lerövidítése"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Easy"
   },
   {
     "Id": 2,
-    "Text": "Mit jelent a �pole poz�ci�?",
+    "Text": "Mit jelent a „pole pozíció”?",
     "Options": [
-      "A leggyorsabb k�r a versenyen",
-      "Az els� rajthely",
-      "A boxutc�b�l indul�s",
-      "Az utols� rajthely"
+      "A leggyorsabb kör a versenyen",
+      "Az első rajthely",
+      "A boxutcából indulás",
+      "Az utolsó rajthely"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Easy"
   },
   {
     "Id": 3,
-    "Text": "Ki nyerte a 2021-es Forma�1 vil�gbajnoki c�met?",
+    "Text": "Ki nyerte a 2021-es Forma–1 világbajnoki címet?",
     "Options": [
       "Lewis Hamilton",
       "Sebastian Vettel",
@@ -37,7 +37,7 @@
   },
   {
     "Id": 4,
-    "Text": "H�ny pil�ta nyert eddig Forma�1-es vil�gbajnoki c�met?",
+    "Text": "Hány pilóta nyert eddig Forma–1-es világbajnoki címet?",
     "Options": [
       "27",
       "31",
@@ -49,7 +49,7 @@
   },
   {
     "Id": 5,
-    "Text": "Melyik csapat sz�ne hagyom�nyosan a piros?",
+    "Text": "Melyik csapat színe hagyományosan a piros?",
     "Options": [
       "Mercedes",
       "Ferrari",
@@ -61,19 +61,19 @@
   },
   {
     "Id": 6,
-    "Text": "Ki vezeti az F1-es aut�t a verseny sor�n?",
+    "Text": "Ki vezeti az F1-es autót a verseny során?",
     "Options": [
-      "M�rn�k",
-      "Csapatf�n�k",
-      "Pil�ta",
-      "Szerel�"
+      "Mérnök",
+      "Csapatfőnök",
+      "Pilóta",
+      "Szerelő"
     ],
     "CorrectAnswerIndex": 2,
     "Difficulty": "Easy"
   },
   {
     "Id": 7,
-    "Text": "Melyik csapatn�l versenyzett Ayrton Senna a legt�bbet?",
+    "Text": "Melyik csapatnál versenyzett Ayrton Senna a legtöbbet?",
     "Options": [
       "Ferrari",
       "Lotus",
@@ -85,9 +85,9 @@
   },
   {
     "Id": 8,
-    "Text": "Ki a Ferrari legsikeresebb pil�t�ja vil�gbajnoki c�mek alapj�n?",
+    "Text": "Ki a Ferrari legsikeresebb pilótája világbajnoki címek alapján?",
     "Options": [
-      "Kimi R�ikk�nen",
+      "Kimi Räikkönen",
       "Fernando Alonso",
       "Sebastian Vettel",
       "Michael Schumacher"
@@ -97,7 +97,7 @@
   },
   {
     "Id": 9,
-    "Text": "Kinek van a legt�bb futamgy�zelme a Forma�1 t�rt�net�ben?",
+    "Text": "Kinek van a legtöbb futamgyőzelme a Forma–1 történetében?",
     "Options": [
       "Sebastian Vettel",
       "Max Verstappen",
@@ -109,31 +109,31 @@
   },
   {
     "Id": 10,
-    "Text": "Mit jelent az �undercut� strat�gia?",
+    "Text": "Mit jelent az „undercut” stratégia?",
     "Options": [
-      "K�s�bbi boxki�ll�s",
-      "Kor�bbi boxki�ll�s gyors k�r�kkel",
-      "Biztons�gi aut� alatti ki�ll�s",
-      "Gumik sp�rol�sa"
+      "Későbbi boxkiállás",
+      "Korábbi boxkiállás gyors körökkel",
+      "Biztonsági autó alatti kiállás",
+      "Gumik spórolása"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 11,
-    "Text": "Hol rendezik a Monac�i Nagyd�jat?",
+    "Text": "Hol rendezik a Monacói Nagydíjat?",
     "Options": [
-      "Franciaorsz�g",
+      "Franciaország",
       "Monaco",
-      "Olaszorsz�g",
-      "Spanyolorsz�g"
+      "Olaszország",
+      "Spanyolország"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 12,
-    "Text": "H�ny pontot kap a futam gy�ztese a jelenlegi szab�lyok szerint?",
+    "Text": "Hány pontot kap a futam győztese a jelenlegi szabályok szerint?",
     "Options": [
       "18",
       "20",
@@ -145,31 +145,31 @@
   },
   {
     "Id": 13,
-    "Text": "Mit jelent a konstrukt�ri vil�gbajnoks�g?",
+    "Text": "Mit jelent a konstruktőri világbajnokság?",
     "Options": [
-      "A legjobb pil�ta bajnoks�ga",
-      "A csapatok �sszes�tett bajnoks�ga",
-      "A motorbesz�ll�t�k versenye",
-      "A szerel�k bajnoks�ga"
+      "A legjobb pilóta bajnoksága",
+      "A csapatok összesített bajnoksága",
+      "A motorbeszállítók versenye",
+      "A szerelők bajnoksága"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Medium"
   },
   {
     "Id": 14,
-    "Text": "Milyen z�szl� jelzi a verseny v�g�t?",
+    "Text": "Milyen zászló jelzi a verseny végét?",
     "Options": [
       "Piros",
-      "S�rga",
-      "K�k",
-      "Kock�s"
+      "Sárga",
+      "Kék",
+      "Kockás"
     ],
     "CorrectAnswerIndex": 3,
     "Difficulty": "Medium"
   },
   {
     "Id": 15,
-    "Text": "Ki volt az els� Forma�1-es vil�gbajnok?",
+    "Text": "Ki volt az első Forma–1-es világbajnok?",
     "Options": [
       "Juan Manuel Fangio",
       "Alberto Ascari",
@@ -181,7 +181,7 @@
   },
   {
     "Id": 16,
-    "Text": "Melyik �vben vezett�k be a hibrid er�forr�sokat az F1-ben?",
+    "Text": "Melyik évben vezették be a hibrid erőforrásokat az F1-ben?",
     "Options": [
       "2010",
       "2012",
@@ -193,19 +193,19 @@
   },
   {
     "Id": 17,
-    "Text": "Mit jelent a �parc ferm� szab�ly?",
+    "Text": "Mit jelent a „parc fermé” szabály?",
     "Options": [
-      "Z�rt boxutca",
-      "Az aut�k nem m�dos�that�k az id�m�r� ut�n",
-      "K�telez� gumicsere",
-      "Z�rt n�z�t�r"
+      "Zárt boxutca",
+      "Az autók nem módosíthatók az időmérő után",
+      "Kötelező gumicsere",
+      "Zárt nézőtér"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Hard"
   },
   {
     "Id": 18,
-    "Text": "Melyik csapat nyerte a legt�bb konstrukt�ri vil�gbajnoki c�met?",
+    "Text": "Melyik csapat nyerte a legtöbb konstruktőri világbajnoki címet?",
     "Options": [
       "Ferrari",
       "McLaren",
@@ -217,19 +217,19 @@
   },
   {
     "Id": 19,
-    "Text": "Mi az �overcut� strat�gia l�nyege?",
+    "Text": "Mi az „overcut” stratégia lényege?",
     "Options": [
-      "Kor�bbi boxki�ll�s",
-      "K�s�bbi boxki�ll�ssal el�z�s",
-      "Safety Car alatti ki�ll�s",
-      "Gumik cser�j�nek kihagy�sa"
+      "Korábbi boxkiállás",
+      "Későbbi boxkiállással előzés",
+      "Safety Car alatti kiállás",
+      "Gumik cseréjének kihagyása"
     ],
     "CorrectAnswerIndex": 1,
     "Difficulty": "Hard"
   },
   {
     "Id": 20,
-    "Text": "Melyik p�ly�n rendezt�k a legt�bb Forma�1-es futamot?",
+    "Text": "Melyik pályán rendezték a legtöbb Forma–1-es futamot?",
     "Options": [
       "Monaco",
       "Monza",

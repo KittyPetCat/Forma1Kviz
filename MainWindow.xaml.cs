@@ -32,7 +32,7 @@ namespace Forma1Kviz
 
         public MainWindow()
         {
-            InitializeComponent(); // ⭐ kötelező WPF-ben
+            InitializeComponent(); // kötelező WPF-ben
 
             // JSON beolvasása
             string json = File.ReadAllText("questions.json");
