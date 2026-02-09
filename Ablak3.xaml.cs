@@ -25,7 +25,7 @@ namespace Forma1Kviz
             PontszamRun.Text = pontszam.ToString();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MainWindow ablak1 = new MainWindow();
             ablak1.Show();

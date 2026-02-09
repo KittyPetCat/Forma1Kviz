@@ -35,7 +35,7 @@ namespace Forma1Kviz
             InitializeComponent(); // kötelező WPF-ben
 
             // JSON beolvasása
-            string json = File.ReadAllText("questions.json");
+            string json = File.ReadAllText("questions_utf8.json");
 
             Questions = JsonSerializer.Deserialize<List<Question>>(json);
         }
