@@ -11,26 +11,40 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows;
 
 namespace Forma1Kviz
 {
-    /// <summary>
-    /// Interaction logic for Ablak3.xaml
-    /// </summary>
     public partial class Ablak3 : Window
     {
         public Ablak3(int pontszam)
         {
             InitializeComponent();
+
+            // Pontszám megjelenítése
             PontszamRun.Text = pontszam.ToString();
+
+            // Teljesítmény szöveg beállítása pontszám alapján
+            if (pontszam >= 18)
+            {
+                TeljesitmenyText.Text = "Nagyon jó teljesítmény!";
+            }
+            else if (pontszam >= 11)
+            {
+                TeljesitmenyText.Text = "Jó teljesítmény!";
+            }
+            else
+            {
+                TeljesitmenyText.Text = "Próbáld újra!";
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow ablak1 = new MainWindow();
-            ablak1.Show();
+            // Újraindítás: vissza a MainWindow-hoz
+            MainWindow main = new MainWindow();
+            main.Show();
             this.Close();
         }
     }
 }
-

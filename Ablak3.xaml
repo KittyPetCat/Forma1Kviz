@@ -57,9 +57,11 @@
                                        FontSize="26"
                                        FontWeight="Bold"/>
 
-                            <TextBlock Text="Nagyon jó teljesítmény!"
-                                       FontSize="18"
-                                       Margin="0,8,0,0"/>
+                            <TextBlock x:Name="TeljesitmenyText"
+                                        FontSize="18"
+                                        Margin="0,8,0,0"
+                                        Text=""/>
+
 
                             <!-- PONTSZÁM -->
                             <TextBlock FontSize="22"
@@ -67,7 +69,7 @@
                                        Margin="0,16,0,0">
                                 <Run Text="Pontszám: "/>
                                 <Run x:Name="PontszamRun"/>
-                                <Run Text=" / 10"/>
+                                <Run Text=" / 20"/>
                             </TextBlock>
 
                         </StackPanel>
