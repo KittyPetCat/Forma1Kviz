@@ -8,7 +8,7 @@ using System.Windows.Controls;
 
 namespace Forma1Kviz
 {
-    public class Kerdes 
+    public class Kerdes
     {
         public int Id { get; set; }
         public string Text { get; set; }
@@ -40,19 +40,25 @@ namespace Forma1Kviz
         {
             Kerdes q = kerdes[currentIndex];
 
+            // Kérdés szöveg
             QuestionText.Text = q.Text;
 
+            // Válaszok szövege
             valasz1.Content = q.Options[0];
             valasz2.Content = q.Options[1];
             valasz3.Content = q.Options[2];
             valasz4.Content = q.Options[3];
 
+            // RadioButtonok alaphelyzetbe állítása
             valasz1.IsChecked = false;
             valasz2.IsChecked = false;
             valasz3.IsChecked = false;
             valasz4.IsChecked = false;
 
             NextButton.IsEnabled = false;
+
+            // Állás frissítése
+            txtProgress.Text = $"{currentIndex + 1} / {kerdes.Count}";
         }
 
         private void Answer_Checked(object sender, RoutedEventArgs e)
@@ -77,12 +83,14 @@ namespace Forma1Kviz
             }
             else
             {
-                MessageBox.Show($"Kvíz vége!\nPontszám: {score}/{kerdes.Count}");
-                Close();
-            };
+                // Kvíz vége: megnyitjuk az Ablak3-at és átadjuk a pontszámot
+                Ablak3 eredmenyAblak = new Ablak3(score);
+                eredmenyAblak.Show();
+                this.Close();
+            }
         }
-            
-        
+
+
 
         private int GetSelectedAnswerIndex()
         {

@@ -1,6 +1,8 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using System.Text.Json;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,12 +10,12 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Windows;
+
+
+
 
 namespace Forma1Kviz
 {
@@ -35,19 +37,26 @@ namespace Forma1Kviz
             InitializeComponent(); // kötelező WPF-ben
 
             // JSON beolvasása
-            string json = File.ReadAllText("questions_utf8.json");
+            var json = File.ReadAllText("questions_utf8.json");
 
             Questions = JsonSerializer.Deserialize<List<Question>>(json);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Ablak2 ablak2 = new Ablak2();
-            ablak2.Show();       // új ablak megnyitása
+            Ablak4 ablak4 = new Ablak4();
+            ablak4.Show();       // új ablak megnyitása
             this.Close();
         }
 
         private void kozepes_Click(object sender, RoutedEventArgs e)
+        {
+            Ablak4 ablak4 = new Ablak4();
+            ablak4.Show();       // új ablak megnyitása
+            this.Close();
+        }
+
+        private void btnNehez_Click(object sender, RoutedEventArgs e)
         {
             Ablak4 ablak4 = new Ablak4();
             ablak4.Show();       // új ablak megnyitása

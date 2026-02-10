@@ -113,8 +113,7 @@
                                    Margin="90,0,0,0" FontSize="14" Text="Ez a kvíz a részletekről, összefüggésekről és precíz gondolkodásról szól. Minden kérdés egy újabb akadály. Vajon meddig jutsz el?"/>
                     </Grid>
 
-                    <Button x:Name="btnNehez"
-                        Content="Nehéz"
+                    <Button x:Name="btnNehez" Content="Nehéz"
                             Background="#E74C3C"
                             Foreground="White"
                             Height="40"
