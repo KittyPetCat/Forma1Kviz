@@ -35,93 +35,68 @@
                    Margin="0,30,0,20"
                    HorizontalAlignment="Center"
                    Text="IDE JÖN A KÉRDÉS"
-                   TextWrapping="Wrap"/>
+                   TextWrapping="Wrap" TextAlignment="Center"/>
 
         <!-- VÁLASZOK -->
         <UniformGrid Grid.Row="2"
                      Columns="2"
-                     Margin="0,20,0,26">
+                     Margin="48,20,48,26">
 
             <!-- VÁLASZ 1 -->
-            <RadioButton x:Name="valasz1"
+            <Border CornerRadius="20"
+Background="#D3D3D3"
+Margin="10"
+Padding="10">
+                <RadioButton x:Name="valasz1"
                          GroupName="Answers"
                          Checked="Answer_Checked">
-                <Border CornerRadius="20"
-                        Background="#D3D3D3"
-                        Margin="10"
-                        Padding="15">
-                    <StackPanel>
-                        <TextBlock Text="1."
-                                   FontSize="18"
-                                   FontWeight="Bold"
-                                   HorizontalAlignment="Right"/>
-                        <TextBlock Text="Válasz szöveg"
-                                   TextWrapping="Wrap"/>
-                    </StackPanel>
-                </Border>
-            </RadioButton>
+                
+                
+            </RadioButton></Border>
 
             <!-- VÁLASZ 2 -->
+            <Border CornerRadius="20"
+        Background="#D3D3D3"
+        Margin="10"
+        Padding="10">
             <RadioButton x:Name="valasz2"
                          GroupName="Answers"
                          Checked="Answer_Checked">
-                <Border CornerRadius="20"
-                        Background="#D3D3D3"
-                        Margin="10"
-                        Padding="15">
-                    <StackPanel>
-                        <TextBlock Text="2."
-                                   FontSize="18"
-                                   FontWeight="Bold"
-                                   HorizontalAlignment="Right"/>
-                        <TextBlock Text="Válasz szöveg"
-                                   TextWrapping="Wrap"/>
-                    </StackPanel>
-                </Border>
+                
+                
             </RadioButton>
+            </Border>
 
             <!-- VÁLASZ 3 -->
-            <RadioButton x:Name="valasz3"
+            <Border CornerRadius="20"
+Background="#D3D3D3"
+Margin="10"
+Padding="10">
+                <RadioButton x:Name="valasz3"
                          GroupName="Answers"
                          Checked="Answer_Checked">
-                <Border CornerRadius="20"
-                        Background="#D3D3D3"
-                        Margin="10"
-                        Padding="15">
-                    <StackPanel>
-                        <TextBlock Text="3."
-                                   FontSize="18"
-                                   FontWeight="Bold"
-                                   HorizontalAlignment="Right"/>
-                        <TextBlock Text="Válasz szöveg"
-                                   TextWrapping="Wrap"/>
-                    </StackPanel>
-                </Border>
-            </RadioButton>
+                
+                    
+                
+            </RadioButton></Border>
 
             <!-- VÁLASZ 4 -->
-            <RadioButton x:Name="valasz4"
-                         GroupName="Answers"
-                         Checked="Answer_Checked">
+            
                 <Border CornerRadius="20"
                         Background="#D3D3D3"
                         Margin="10"
-                        Padding="15">
-                    <StackPanel>
-                        <TextBlock Text="4."
-                                   FontSize="18"
-                                   FontWeight="Bold"
-                                   HorizontalAlignment="Right"/>
-                        <TextBlock Text="Válasz szöveg"
-                                   TextWrapping="Wrap"/>
-                    </StackPanel>
+                        Padding="10">
+                    <RadioButton x:Name="valasz4"
+                    GroupName="Answers"
+                    Checked="Answer_Checked">
+                    </RadioButton>
                 </Border>
-            </RadioButton>
+            
 
         </UniformGrid>
 
         <!-- ALSÓ SÁV -->
-        <Grid Grid.Row="3" Margin="0,20">
+        <Grid Grid.Row="3" Margin="36,20,36,20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
